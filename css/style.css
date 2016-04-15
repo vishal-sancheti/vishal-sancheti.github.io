@@ -1,21 +1,42 @@
-html{
-    border: 10px solid #47848F;
-    height: 100%;
-}
+
 body {
     background: #efefef;
     font-family: 'Raleway', sans-serif;
 }
-section.hero{
-    padding: 260px 0 160px 0;
-        text-align: center;
-        color: #47848F;
+
+/*Hero Section*/
+/* Header */
+.hero {
+	position: relative;
+	width: 100%;
+    height:100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
 }
 
+.hero .hero--content {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #47848F;
+	text-align: center;
+	top: 50%;
+	left: 0;
+    right:0;
+}
+.hero .hero--content h1{
+    text-transform: uppercase;
+    font-size: 72px;
+}
+.hero .hero--tagline{
+    color: #fff !important;
+    font-size: 36px;
+}
 
-/*=========================
-  Icons
- ================= */
+/*-----------------*/
 
 /* footer social icons */
 ul.social-network {
@@ -29,8 +50,6 @@ ul.social-network li {
 	margin: 0 5px;
 }
 
-
-/* footer social icons */
 .social-network a.icoRss:hover {
 	background-color: #F56505;
 }
@@ -90,7 +109,107 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+ /*--------------------*/
 
-a {
- background-color: #D3D3D3;
+
+/*Main window begins*/
+
+.tab_container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+  position: relative;
+}
+
+input,
+section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 20%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+
+.tab_container .tab-content h3 {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #0CE;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0CE;
+}
+
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+
+/*Media query*/
+
+@media only screen and (max-width: 900px) {
+  label span {
+    display: none;
+  }
+  .tab_container {
+    width: 98%;
+  }
+}
+
+
+/*Content Animation*/
+
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.no_wrap {
+  text-align: center;
+  color: #0ce;
+}
+
+.link {
+  text-align: center;
 }

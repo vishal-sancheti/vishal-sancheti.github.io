@@ -30,33 +30,135 @@
 
 <body>
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h1>Vishal Sancheti
-                        </h1>
-                        <div>
-                            I'am a <span class="rotate">Minimalistic Designer, Ninja Developer, Php Artisan</span>
-                        </div>
-                        <br>
-                        <ul class="social-network social-circle">
-                            <li><a href="https://www.facebook.com/vishal.sancheti" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/v1shky" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://plus.google.com/+VishalSancheti" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="https://in.linkedin.com/in/vishalsancheti" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
+        <div class="hero" id="hero">
+            <canvas id="network--canvas"></canvas>
+            <div class="hero--content text-center" id="hero--content">
+                <h1>Vishal Sancheti
+                </h1>
+                <div class="hero--tagline">
+                    I'am a <span style="width:100px;" class="rotate">Minimal Designer, Ninja Developer, Laravel Artisan</span>
+                </div>
+                <br>
+                <ul class="social-network social-circle">
+                    <li><a href="https://www.facebook.com/vishal.sancheti" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/v1shky" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/+VishalSancheti" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/vishalsancheti" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="main--content">
+                <div class="container text-center">
+                    <h1>More Details</h1>
+            		<div class="tab_container">
+            			<input id="tab1" type="radio" name="tabs" checked>
+            			<label for="tab1"><i class="fa fa-code"></i><span>Code</span></label>
+
+            			<input id="tab2" type="radio" name="tabs">
+            			<label for="tab2"><i class="fa fa-pencil-square-o"></i><span>About</span></label>
+
+            			<input id="tab3" type="radio" name="tabs">
+            			<label for="tab3"><i class="fa fa-bar-chart-o"></i><span>Education</span></label>
+
+            			<input id="tab4" type="radio" name="tabs">
+            			<label for="tab4"><i class="fa fa-folder-open-o"></i><span>Portfolio</span></label>
+
+            			<input id="tab5" type="radio" name="tabs">
+            			<label for="tab5"><i class="fa fa-envelope-o"></i><span>Contact</span></label>
+
+            			<section id="content1" class="tab-content">
+            				<h3>All about my Coding</h3>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur.</p>
+            			</section>
+
+            			<section id="content2" class="tab-content">
+            				<h3>All about me</h3>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            			</section>
+
+            			<section id="content3" class="tab-content">
+            				<h3>My educational background</h3>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            			</section>
+
+            			<section id="content4" class="tab-content">
+            				<h3>My previous works</h3>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat.</p>
+            			</section>
+
+            			<section id="content5" class="tab-content">
+            				<h3>Contact me now</h3>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            			</section>
+            		</div>
+
+                    <p class="no_wrap">
+                      And Of-course this paragrapgh with not wrap Tab
+                    </p>
+
+                    <p class="link">
+                      Just in case you want to go through the tutorial follow this link: <a href="http://www.sevensignature.com/blog/code/responsive-pure-css-tabs/">Responsive Pure CSS Tabs</a>
+                    </p>
                 </div>
             </div>
-        </section>
     </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.simple-text-rotator.js"></script>
+    <script src="js/script.js"></script>
+
     <script type="text/javascript">
     $(".rotate").textrotator({
         animation: "flipUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
