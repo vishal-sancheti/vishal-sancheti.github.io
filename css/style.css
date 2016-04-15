@@ -1,0 +1,13 @@
+html{
+    border: 10px solid #47848F;
+    height: 100%;
+}
+body {
+    background: #efefef;
+    font-family: 'Raleway', sans-serif;
+}
+section.hero{
+    padding: 260px 0 160px 0;
+        text-align: center;
+        color: #47848F;
+}
