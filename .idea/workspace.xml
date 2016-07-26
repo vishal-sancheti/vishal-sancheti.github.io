@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1a946c-53f5-4d2e-b837-780a7f2ed7ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/me.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/simpletextrotator.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/android-icon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/ms-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/ms-icon-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/ms-icon-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon/ms-icon-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fiverr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.simple-text-rotator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="v1shky.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,12 +27,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+            <state relative-caret-position="169">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="31" />
               <folding>
                 <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+                <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -232,12 +182,12 @@
       <updated>1466514913460</updated>
       <workItem from="1466514915450" duration="210000" />
       <workItem from="1468674492539" duration="606000" />
-      <workItem from="1469531844020" duration="2573000" />
+      <workItem from="1469531844020" duration="2747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3393000" />
+    <option name="totallyTimeSpent" value="3567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="6" />
@@ -304,7 +254,7 @@
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+            <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -324,7 +274,7 @@
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+            <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -344,7 +294,7 @@
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+            <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -356,7 +306,7 @@
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+            <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -387,12 +337,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+        <state relative-caret-position="169">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1469534834000" expanded="true" signature="428:544" placeholder="..." />
+            <marker date="1469535295000" expanded="true" signature="428:544" placeholder="..." />
           </folding>
         </state>
       </provider>
