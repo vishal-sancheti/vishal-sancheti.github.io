@@ -290,7 +290,7 @@ ul{
         width: 100%;
     }
 }
-.section-wrapper:nth-child(3) {
+.section-wrapper:nth-child(1) {
     padding-right: 8%;
 }
 .section-wrapper h3.section-title {
