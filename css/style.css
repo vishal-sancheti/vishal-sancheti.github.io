@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -19,9 +20,11 @@ a {
     color: #66cc99;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 .clearfix::after, .clearfix::before {
     content: " ";
     display: table;
@@ -35,15 +38,17 @@ ul{
     color: #4a4e51;
     font-weight: 400;
 }
+
 .list-unstyled {
-	padding-left: 0;
-	list-style: none;
+    padding-left: 0;
+    list-style: none;
 }
+
 .list-inline li {
-	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
-	margin-bottom: 10px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 .resume-wrapper {
@@ -62,15 +67,19 @@ ul{
     float: left;
     color: #9099a0;
 }
+
 @media (max-width: 850px) {
     .profile {
         width: 100%;
     }
 }
+
 .profile .name-wrapper {
     float: left;
-    width: 60%;
+    width: 75%;
+    text-align: left;
 }
+
 .profile h1 {
     font-size: 2.5em;
     text-align: left;
@@ -79,30 +88,36 @@ ul{
     text-transform: uppercase;
     line-height: 1em;
 }
+
 @media (max-width: 1200px) {
     .profile h1 {
         padding-top: 20px;
     }
 }
+
 @media (max-width: 450px) {
     .profile h1 {
         font-size: 1.8em;
         padding-top: 20px;
     }
 }
+
 .profile li {
     margin-bottom: 10px;
 }
+
 .profile .picture-resume-wrapper {
-    width: 40%;
+    width: 25%;
     display: block;
     float: left;
 }
+
 @media (max-width: 1200px) {
     .profile .picture-resume-wrapper {
         width: 100%;
     }
 }
+
 .profile .picture-resume {
     width: 220px;
     height: 220px;
@@ -113,6 +128,7 @@ ul{
     position: relative;
     vertical-align: middle;
 }
+
 .profile .picture-resume span {
     display: table-cell;
     vertical-align: middle;
@@ -121,53 +137,63 @@ ul{
     z-index: 10;
     text-align: center;
 }
+
 .profile .picture-resume img {
     border-radius: 50%;
     width: 130px;
 }
+
 @media (max-width: 1500px) {
     .profile .picture-resume img {
         width: 80px;
     }
 }
+
 @media (max-width: 1200px) {
     .profile .picture-resume img {
         width: 120px;
         height: 120px;
     }
 }
+
 @media (max-width: 1500px) {
     .profile .picture-resume {
         width: 150px;
         height: 150px;
     }
 }
+
 @media (max-width: 1200px) {
     .profile .picture-resume {
         width: 200px;
         height: 200px;
     }
 }
+
 @media (max-width: 450px) {
     .profile .picture-resume {
         width: 180px;
         height: 180px;
     }
 }
+
 .profile .contact-info {
     margin-top: 10px;
     font-weight: 300;
 }
+
 @media (max-width: 1200px) {
     .profile .contact-info {
         margin-top: 70px;
     }
 }
+
 @media (max-width: 450px) {
     .profile .contact-info {
         margin-top: 50px;
     }
 }
+
 .profile .list-titles {
     float: left;
     text-align: left;
@@ -175,36 +201,42 @@ ul{
     width: 40%;
     color: #4a4e51;
 }
+
 .profile .list-content {
     float: left;
-    width: 60%;
+    width: 0%;
     text-align: left;
     font-weight: 300;
 }
+
 .profile .contact-presentation {
     text-align: left;
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 @media (max-width: 1200px) {
     .profile .contact-presentation {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
+
 @media (max-width: 850px) {
     .profile .contact-presentation {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 }
+
 .profile svg {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .profile .st0, .profile .st1 {
     fill: #66cc99;
 }
@@ -219,11 +251,13 @@ ul{
     min-height: 100%;
     min-height: 100vh;
 }
+
 @media (max-width: 850px) {
     .experience {
         width: 100%;
     }
 }
+
 .experience h3.experience-title {
     color: #66cc99;
     text-align: left;
@@ -232,6 +266,7 @@ ul{
     margin-bottom: 20px;
     font-weight: 400;
 }
+
 .experience .company-wrapper {
     width: 30%;
     float: left;
@@ -239,12 +274,14 @@ ul{
     padding-right: 5%;
     margin-bottom: 60px;
 }
+
 @media (max-width: 450px) {
     .experience .company-wrapper {
         width: 100%;
         margin-bottom: 20px;
     }
 }
+
 .experience .job-wrapper {
     width: 70%;
     float: left;
@@ -252,25 +289,38 @@ ul{
     padding-right: 5%;
     margin-bottom: 60px;
 }
+
 @media (max-width: 450px) {
     .experience .job-wrapper {
         width: 100%;
         margin-bottom: 40px;
     }
 }
+
 .experience .experience-title {
     color: white;
     margin-bottom: 15px;
 }
 
+.duty-list{
+    padding-left: 0;
+}
+.duty-list li:before{
+    content: "*";
+    padding-right: 5px;
+    color: #66CC99;
+}
+
 .section-padding {
     padding: 60px 60px 40px 40px;
 }
+
 @media (max-width: 850px) {
     .section-padding {
         padding: 80px 15% 40px 10%;
     }
 }
+
 @media (max-width: 450px) {
     .section-padding {
         padding: 40px 10% 20px 5%;
@@ -285,14 +335,17 @@ ul{
     font-weight: 300;
     margin-bottom: 20px;
 }
+
 @media (max-width: 450px) {
     .section-wrapper {
         width: 100%;
     }
 }
+
 .section-wrapper:nth-child(1) {
     padding-right: 8%;
 }
+
 .section-wrapper h3.section-title {
     color: #66cc99;
     text-align: left;
@@ -301,64 +354,77 @@ ul{
     margin-bottom: 20px;
     font-weight: 400;
 }
+
 .section-wrapper .skill-list {
-	padding: 0;
+    padding: 0;
 }
-.section-wrapper .skill-percentage {
+
+.section-wrapper .skill-list li {
     margin-bottom: 10px;
-    position: relative;
 }
-.section-wrapper .skill-percentage::after {
-    content: "";
-    width: 100%;
-    height: 6px;
-    background: #4a4e51;
-    display: block;
-    margin-top: 3px;
+
+.section-wrapper .skill-list li:before {
+    content: "▹";
+    padding-right: 10px;
+    color: #66CC99;
 }
-.section-wrapper .skill-percentage::before {
-    content: "";
-    height: 6px;
-    background: #66cc99;
-    position: absolute;
-    margin-top: 3px;
-    bottom: 0;
-}
-.section-wrapper .skill-percentage:nth-child(1)::before {
-    width: 80%;
-    -webkit-animation: skill_1 0.6s ease;
-    animation: skill_1 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(2)::before {
-    width: 60%;
-    -webkit-animation: skill_2 0.6s ease;
-    animation: skill_2 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(3)::before {
-    width: 50%;
-    -webkit-animation: skill_3 0.6s ease;
-    animation: skill_3 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(4)::before {
-    width: 60%;
-    -webkit-animation: skill_4 0.6s ease;
-    animation: skill_4 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(5)::before {
-    width: 80%;
-    -webkit-animation: skill_5 0.6s ease;
-    animation: skill_5 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(6)::before {
-    width: 90%;
-    -webkit-animation: skill_6 0.6s ease;
-    animation: skill_6 0.6s ease;
-}
-.section-wrapper .skill-percentage:nth-child(7)::before {
-    width: 70%;
-    -webkit-animation: skill_6 0.6s ease;
-    animation: skill_6 0.6s ease;
-}
+
+/* Disabled Skill Percentage*/
+/*.section-wrapper .skill-percentage {*/
+/*margin-bottom: 10px;*/
+/*position: relative;*/
+/*}*/
+/*.section-wrapper .skill-percentage::after {*/
+/*content: "";*/
+/*width: 100%;*/
+/*height: 6px;*/
+/*background: #4a4e51;*/
+/*display: block;*/
+/*margin-top: 3px;*/
+/*}*/
+/*.section-wrapper .skill-percentage::before {*/
+/*content: "";*/
+/*height: 6px;*/
+/*background: #66cc99;*/
+/*position: absolute;*/
+/*margin-top: 3px;*/
+/*bottom: 0;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(1)::before {*/
+/*width: 80%;*/
+/*-webkit-animation: skill_1 0.6s ease;*/
+/*animation: skill_1 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(2)::before {*/
+/*width: 60%;*/
+/*-webkit-animation: skill_2 0.6s ease;*/
+/*animation: skill_2 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(3)::before {*/
+/*width: 50%;*/
+/*-webkit-animation: skill_3 0.6s ease;*/
+/*animation: skill_3 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(4)::before {*/
+/*width: 60%;*/
+/*-webkit-animation: skill_4 0.6s ease;*/
+/*animation: skill_4 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(5)::before {*/
+/*width: 80%;*/
+/*-webkit-animation: skill_5 0.6s ease;*/
+/*animation: skill_5 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(6)::before {*/
+/*width: 90%;*/
+/*-webkit-animation: skill_6 0.6s ease;*/
+/*animation: skill_6 0.6s ease;*/
+/*}*/
+/*.section-wrapper .skill-percentage:nth-child(7)::before {*/
+/*width: 70%;*/
+/*-webkit-animation: skill_6 0.6s ease;*/
+/*animation: skill_6 0.6s ease;*/
+/*}*/
 
 @-webkit-keyframes skill_1 {
     from {
@@ -377,6 +443,7 @@ ul{
         width: 80%;
     }
 }
+
 @-webkit-keyframes skill_2 {
     from {
         width: 0%;
@@ -385,6 +452,7 @@ ul{
         width: 90%;
     }
 }
+
 @keyframes skill_2 {
     from {
         width: 0%;
@@ -393,6 +461,7 @@ ul{
         width: 90%;
     }
 }
+
 @-webkit-keyframes skill_3 {
     from {
         width: 0%;
@@ -401,6 +470,7 @@ ul{
         width: 50%;
     }
 }
+
 @keyframes skill_3 {
     from {
         width: 0%;
@@ -409,6 +479,7 @@ ul{
         width: 50%;
     }
 }
+
 @-webkit-keyframes skill_4 {
     from {
         width: 0%;
@@ -417,6 +488,7 @@ ul{
         width: 60%;
     }
 }
+
 @keyframes skill_4 {
     from {
         width: 0%;
@@ -425,6 +497,7 @@ ul{
         width: 60%;
     }
 }
+
 @-webkit-keyframes skill_5 {
     from {
         width: 0%;
@@ -433,6 +506,7 @@ ul{
         width: 70%;
     }
 }
+
 @keyframes skill_5 {
     from {
         width: 0%;
@@ -441,6 +515,7 @@ ul{
         width: 70%;
     }
 }
+
 @-webkit-keyframes skill_6 {
     from {
         width: 0%;
@@ -449,6 +524,7 @@ ul{
         width: 70%;
     }
 }
+
 @keyframes skill_6 {
     from {
         width: 0%;
@@ -457,6 +533,7 @@ ul{
         width: 70%;
     }
 }
+
 @-webkit-keyframes skill_7 {
     from {
         width: 0%;
@@ -465,6 +542,7 @@ ul{
         width: 70%;
     }
 }
+
 @keyframes skill_7 {
     from {
         width: 0%;
@@ -475,50 +553,80 @@ ul{
 }
 
 .social-icons .fa {
-	font-size: 18px;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	color: #FFF;
-	color: rgba(255, 255, 255, 0.8);
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.social-icons.icon-circle .fa{ 
-	border-radius: 50%;
+.social-icons.icon-circle .fa {
+    border-radius: 50%;
 }
-.social-icons.icon-rounded .fa{
-	border-radius:5px;
+
+.social-icons.icon-rounded .fa {
+    border-radius: 5px;
 }
-.social-icons.icon-flat .fa{
-	border-radius: 0;
+
+.social-icons.icon-flat .fa {
+    border-radius: 0;
 }
 
 .social-icons .fa:hover, .social-icons .fa:active {
-	color: #FFF;
-	-webkit-box-shadow: 0px 0px 1px #333;
-	-moz-box-shadow: 0px 0px 1px #333;
-	box-shadow: 0px 1px 1px #333; 
-}
-.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
- 	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	transform: scale(1.05); 
+    color: #FFF;
+    -webkit-box-shadow: 0px 0px 1px #333;
+    -moz-box-shadow: 0px 0px 1px #333;
+    box-shadow: 0px 1px 1px #333;
 }
 
-.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;} 
-.social-icons .fa-gitlab,.social-icons .fa-gitlab{background-color:#F7931A;} 
-.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
-.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
-.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;} 
-.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
-.social-icons .fa-envelope{background-color:#FBC002;color:#333;}
-.social-icons .fa-skype{background-color:#01AEF2;}
-.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.social-icons .fa-bitbucket, .social-icons .fa-bitbucket-square {
+    background-color: #003366;
+}
+
+.social-icons .fa-gitlab, .social-icons .fa-gitlab {
+    background-color: #F7931A;
+}
+
+.social-icons .fa-facebook, .social-icons .fa-facebook-square {
+    background-color: #3C599F;
+}
+
+.social-icons .fa-github, .social-icons .fa-github-alt, .social-icons .fa-github-square {
+    background-color: #070709;
+}
+
+.social-icons .fa-google-plus, .social-icons .fa-google-plus-square {
+    background-color: #CF3D2E;
+}
+
+.social-icons .fa-linkedin, .social-icons .fa-linkedin-square {
+    background-color: #0085AE;
+}
+
+.social-icons .fa-envelope {
+    background-color: #FBC002;
+    color: #333;
+}
+
+.social-icons .fa-skype {
+    background-color: #01AEF2;
+}
+
+.social-icons .fa-twitter, .social-icons .fa-twitter-square {
+    background-color: #32CCFE;
+}
