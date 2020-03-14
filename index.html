@@ -3,13 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Vishal Sancheti - Software Developer and Web Artisan</title>
+    <title>Vishal Sancheti - Software Developer</title>
     <meta name="description" content="Personal website of Vishal Sancheti">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https:////netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -17,162 +28,301 @@
     You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
-<div class="resume-wrapper">
-    <section class="profile section-padding">
-        <div class="container">
-            <div class="name-wrapper">
-                <small>Hi, my name is</small>
-                <h1>Vishal Sancheti</h1>
-                <h2>I build things for the web.</h2>
-            </div>
-            <div class="picture-resume-wrapper">
-                <div class="picture-resume">
-                    <span><img src="img/me.jpg" alt="" /></span>
-                    <svg version="1.1" viewBox="0 0 350 350">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Vishal Sancheti</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/me.jpg" alt="">
+        </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-                        <defs>
-                            <filter id="goo">
-                                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-                            </filter>
-                        </defs>
+<div class="container-fluid p-0">
 
-
-                        <g filter="url(#goo)" >
-
-                            <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-
-                            <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-                            <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
-
-                        </g>
-                    </svg>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="contact-presentation">
-                <p>
-                    Hello! I'm Vishal, a software developer based in Gujarat, India who enjoys building things that live on the internet. I develop exceptional websites and web applications that provide intuitive user interfaces with efficient and modern backend.
-                </p>
-
-                <p>
-                    Building web sites and applications since 2013. I started software development with freelancing and shortly after graduating from <a href="https://www.gtu.ac.in/" rel="nofollow">Gujarat Technological University</a>, I joined a web and mobile application startup <a href="https://www.eyuva.com" rel="nofollow">EYUVA</a> as Sr. Software Developer where I work on a wide range of interesting and meaningful projects on a daily basis.
-                </p>
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            <h1 class="mb-0">Vishal
+                <span class="text-primary">Sancheti</span>
+            </h1>
+            <div class="subheading mb-5">Rajkot, Gujarat - India · (919) 033-404401 ·
+                <a href="mailto:mail@vishal.pro">mail@vishal.pro</a>
             </div>
 
-            <div class="contact-info clearfix">
-                <ul class="social-icons icon-circle icon-zoom list-unstyled list-inline">
-                    <li> <a href="https://in.linkedin.com/in/vishal-sancheti" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li> <a href="https://gitlab.com/vishal-sancheti" target="_blank"><i class="fa fa-gitlab"></i></a> </li>
-                    <li> <a href="https://github.com/vishal-sancheti" target="_blank"><i class="fa fa-github"></i></a> </li>
-                    <li> <a href="https://www.facebook.com/vishal.sancheti" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li> <a href="https://twitter.com/v1shky" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li> <a href="https://instagram.com/v1shky" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    <li> <a href="mailto:mail@vishal.pro"><i class="fa fa-envelope"></i></a> </li>
-                </ul>
-            </div>
+            <p>Detail-oriented software development professional and team leader with a history of proposing enhancements that improve designs. Highly effective at analyzing existing systems to discover issues and developing creative solutions that satisfy business and customer needs.</p>
+            <p class="mb-5">
+                Building web sites and applications since 2013.
+            </p>
+            <ul class="list-inline list-social-icons mb-0">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/vishal.sancheti">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/v1shky">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://in.linkedin.com/in/vishal-sancheti">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://gitlab.com/vishal-sancheti">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/vishal-sancheti">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section class="experience section-padding">
-        <div class="container">
-            <div class="section-wrapper clearfix">
-                <h3 class="section-title">Skills</h3>
-                <ul class="skill-list">
-                    <li>Laravel</li>
-                    <li>WordPress</li>
-                    <li>HTML & (S)CSS</li>
-                    <li>jQuery</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>VueJS</li>
-                    <li>ReactJS</li>
-                </ul>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+            <h2 class="mb-5">Experience</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Senior Software Developer </h3>
+                    <div class="subheading mb-3">EYUVA Internet Pvt. Ltd – Rajkot, India, Gujarat</div>
+                    <ul>
+                        <li>Managed more than 10 projects and team of over 5 people.</li>
+                        <li>Mentor other developers and interns.</li>
+                        <li>Guide and Implement techniques to maintain code quality and performance.</li>
+                        <li>Gather requirements and client communication.</li>
+                        <li>Architect software plan, design database schema, and optimize data flow.</li>
+                        <li>Assist design and development of software.</li>
+                        <li>Test, Deploy, and Maintain developed software.</li>
+                        <li>Organize and Attend programs to continuously update job-related knowledge.</li>
+                    </ul>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">October 2018 - Present</span>
+                </div>
             </div>
 
-            <div class="section-wrapper clearfix">
-                <h3 class="section-title">Education</h3>
-                <p>Bachelor of Engineering (B.Eng.)<br><b>Information Technologies</b></p>
-
-                <h3 class="section-title">Languages Known</h3>
-                <p>English, Hindi, Gujarati and Tamil</p>
-
-                <h3 class="section-title">Extra Activities</h3>
-                <p>Manage LaravelLive Rajkot (Community), Mentor University Students, Speak at Meetups, Backpacking.</p>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Software Developer</h3>
+                    <div class="subheading mb-3">EYUVA Internet Pvt. Ltd – Rajkot, India, Gujarat</div>
+                   <ul>
+                       <li>Designed layouts and user interfaces using Adobe Photoshop, Illustrator, and XD.</li>
+                       <li>Developed production, test and beta websites using various technologies.</li>
+                       <li>Analyzed solutions and coding fixes for software problems.</li>
+                       <li>Conducted full life-cycle software development in multiple software environments.</li>
+                   </ul>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">October 2015 - September 2018</span>
+                </div>
             </div>
 
-            <h3 class="experience-title">Experience</h3>
-
-            <div class="experience-wrapper">
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Sr. Software Developer</div>
-                    <div class="time">2015 - Present</div>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Project Intern</h3>
+                    <div class="subheading mb-3">EYUVA Technologies – Rajkot, India, Gujarat</div>
+                    <ul>
+                        <li>Completed the project titled SEO POSTMORTEM, a web application to analyze SEO stats of a website and track comparative analysis with the competitors.</li>
+                    </ul>
                 </div>
-
-                <div class="job-wrapper clearfix">
-                    <div class="experience-title">
-                        EYUVA Internet Pvt. Ltd.
-                        <br><small>(Formerly: EYUVA Technologies)</small>
-                    </div>
-                    <div class="company-description">
-                        <ul class="duty-list">
-                            <li><u>Software Engineer</u> for research, design, evaluate, integrate and maintain applications.</li>
-                            <li><u>Full Stack Developer</u> for end-to-end development.</li>
-                            <li><u>Team Manager</u> to manage upto 5 person team.</li>
-                            <li><u>Server Admin and Git maintainer</u> for various projects</li>
-                        </ul>
-                    </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">January 2015 - April 2015</span>
                 </div>
-
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Web Developer</div>
-                    <div class="time">2013 - 2015</div>
-                </div>
-
-                <div class="job-wrapper clearfix">
-                    <div class="experience-title">Freelance Projects</div>
-                    <div class="company-description">
-                        <ul class="duty-list">
-                            <li><u>HTML Development</u> converted many designs to pixel-perfect HTML pages.</li>
-                            <li><u>WordPress Development</u> built and fixed Web sites, Themes, and Plugins.</li>
-                            <li><u>Laravel Development</u> built and fixed Web apps, APIs, Dashboards .</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="company-wrapper clearfix">
-                    <div class="experience-title">Blogger and SEO Manager</div>
-                    <div class="time">Nov 2011 - Nov 2013</div>
-                </div>
-
-                <div class="job-wrapper clearfix">
-                    <div class="experience-title">FunYug.com</div>
-                    <div class="company-description">
-                        <p>Started with Blogger then moved to WordPress, wrote stories, jokes and gossips also learned SEO and HTML & CSS Fundamentals.</p>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Web Developer</h3>
+                    <div class="subheading mb-3">Freelance</div>
+                    <ul>
+                        <li>Converted many designs to pixel-perfect HTML pages.</li>
+                        <li>Built and fixed HTML and WordPress Websites, Themes, and Plugins.
+                        <li>Built and fixed Laravel Web apps</li>
+                    </ul>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">June 2013 - December 2014</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">V.V.P. Engineering College <small>(affiliate to GTU)</small></h3>
+                    <div class="subheading mb-3">Bachelor of Engineering</div>
+                    <div>Information Technology</div>
+                    <p>CGPA: 8.15</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">May 2015</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Vidyaniketan Science Institute <small>(affiliate to GSHSEB)</small></h3>
+                    <div class="subheading mb-3">STEM</div>
+                    <p>PERCENTILE: 74.74</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">March 2011</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Genius English Medium School <small>(affiliate to GSHSEB)</small></h3>
+                    <div class="subheading mb-3">General</div>
+                    <p>PERCENTAGE: 70.15</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">March 2009</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <div class="clearfix"></div>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+            <h2 class="mb-5">Skills</h2>
+
+            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+
+            <ul class="list-inline list-icons">
+                <li class="list-inline-item" title="HTML 5">
+                    <i class="devicons devicons-html5"></i>
+                </li>
+                <li class="list-inline-item" title="CSS 3">
+                    <i class="devicons devicons-css3"></i>
+                </li>
+                <li class="list-inline-item" title="JS (ES6+)">
+                    <i class="devicons devicons-javascript"></i>
+                </li>
+                <li class="list-inline-item" title="jQuery">
+                    <i class="devicons devicons-jquery"></i>
+                </li>
+                <li class="list-inline-item" title="SASS">
+                    <i class="devicons devicons-sass"></i>
+                </li>
+                <li class="list-inline-item" title="Bootstrap">
+                    <i class="devicons devicons-bootstrap"></i>
+                </li>
+                <li class="list-inline-item" title="WordPress">
+                    <i class="devicons devicons-wordpress"></i>
+                </li>
+                <li class="list-inline-item" title="Laravel">
+                    <i class="devicons devicons-laravel"></i>
+                </li>
+                <li class="list-inline-item" title="VueJS">
+                    <i class="d-flex justify-content-start">
+                        <img height="33" src="vendor/devicons/svg/Vue.js.svg">
+                    </i>
+                </li>
+                <li class="list-inline-item"  title="ReactJS">
+                    <i class="devicons devicons-react"></i>
+                </li>
+            </ul>
+
+            <div class="subheading mb-3">Work Skills</div>
+            <ul class="fa-ul mb-0">
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Software project management
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Software development and administration
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Software planning and design
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Quality Assurance
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Database Management
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>API design knowledge
+                 </li>
+                 <li>
+                    <i class="fa-li fa fa-check"></i>Linux Server Management
+                 </li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>Code Version Control
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+            <h2 class="mb-5">Interests</h2>
+            <p>
+                Apart from being a software developer, I enjoy most of my time hanging around with friends, consuming comedy, sci-fi, and fantasy genre movies and television shows. Also, I spend a large amount of my free time exploring the latest technological advancements and ways to increase my skills.</p>
+            <p>
+                One of the interests includes helping and giving back to community. When given opportunity, I mentor various college students with their projects and Voluntarily help multiple tech communities to organize meetups, workshops, and conferences.</p>
+        </div>
+    </section>
+
 </div>
 
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-<script src="js/script.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/script.min.js"></script>
 
 <script type="application/ld+json">
 {
