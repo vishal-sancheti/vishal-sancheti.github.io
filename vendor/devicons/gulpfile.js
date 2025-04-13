@@ -5,6 +5,7 @@ const footer = require("gulp-footer");
 const yargs = require("yargs");
 const fsPromise = require("fs").promises;
 const path = require("path");
+const {execSync} = require("child_process")
 
 // global const
 const deviconBaseCSSName = "devicon-base.css"
@@ -80,7 +81,7 @@ function createAliasStatement(fontObj) {
   return aliases
     .map(aliasObj => {
       return `.devicon-${name}-${aliasObj.alias} {
-            @extend .devicon-${name}-${aliasObj.base};
+            @extend .devicon-${name}-${aliasObj.base} !optional;
         }`;
     })
     .join(" ");
@@ -154,7 +155,6 @@ function cleanUp() {
  */
 function optimizeSvg() {
   let svgGlob = JSON.parse(yargs.argv.svgFiles);
-  console.log("Optimizing these files: ", svgGlob);
   return gulp
     .src(svgGlob)
     .pipe(svgmin(configOptionCallback))
@@ -186,11 +186,33 @@ function configOptionCallback(file) {
       },
       {
         removeDimensions: true // remove height and width
+      },
+      {
+        name: "removeAttrs",
+        params: {
+          attrs: "svg:(x|y)"
+        }
       }
     ]
   };
 }
 
+/**
+ * Bump the NPM version of this project. 
+ * This is called via the command line 
+ * using the format "npm run bump -- -v='MAJOR.MINOR.PATCH'"
+ * @returns a Promise.resolve()
+ */
+function bumpVersion() {
+  let newVersion = yargs.argv.v
+  let command = `npm version v${newVersion} -m "bump npm version to v${newVersion}"`
+  console.log("Running command: " + command)
+  let stdout = execSync(command)
+  console.log("Command ran. Here's the result:\n" + stdout)
+  return Promise.resolve()
+}
+
 exports.updateCss = createDeviconMinCSS;
 exports.clean = cleanUp;
 exports.optimizeSvg = optimizeSvg;
+exports.bumpVersion = bumpVersion
